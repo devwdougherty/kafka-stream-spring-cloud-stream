@@ -10,6 +10,10 @@ The Kafka Infrastructure (broker and other dependencies) are being built with a 
 
 **Topics:** web-domains, active.web-domain and inactive.web-domains.
 
+## Architecture
+
+![architecture](architecture.png)
+
 ## Technologies
 
 - Java 11
