@@ -3,7 +3,9 @@
 The Kafka Infrastructure (broker and other dependencies) are being built with a Docker image from Confluent.
 
 **Domain-crawler:** Producer (Kafka)
+
 **Domain-processor:** Processor (Kafka Stream)
+
 **Domain-service:** Consumer (Kafka Stream)
 
 **Topics:** web-domains, active.web-domain and inactive.web-domains.
