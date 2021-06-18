@@ -1,6 +1,6 @@
 # Kafka Streams using Spring Cloud Stream (Microservices Example)
 
-The Kafka Infrastructure (broker and other dependencies) are being built with a Docker image from Confluent.
+The Kafka Infrastructure (broker and other dependencies) are being built with a Docker image from Confluent. External API used on project: https://domainsdb.info/ (request example: https://api.domainsdb.info/v1/domains/search?domain=facebook&zone=com).
 
 **Domain-crawler:** Producer (Kafka)
 
