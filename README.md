@@ -26,13 +26,13 @@ The Kafka Infrastructure (broker and other dependencies) are being built with a 
 
 ## Run
 
-1. [Following Confluent instructions](https://docs.confluent.io/platform/current/quickstart/cos-docker-quickstart.html#step-2-create-ak-topics):
-1.1 Download the Apache Kafka Environment (confluent) Docker image.
-1.2 Start the Docker in your OS and the Confluent Plataform: `docker-compose up -d`
-1.3 Create the following Kafka Topics: domain-crawler, domain-processor, and domain-service.
-2. Run in order the microservices: crawler, processor, and service.
-3. Make the request `{crawler-host}/domain/lookup/{name}`-> name being the desired domain name to search on API Domain Info.
-4. Verify the crawler, processor, and service to see the results.
+- [Following Confluent instructions](https://docs.confluent.io/platform/current/quickstart/cos-docker-quickstart.html#step-2-create-ak-topics):
+  - Download the Apache Kafka Environment (confluent) Docker image.
+  - Start the Docker in your OS and the Confluent Plataform: `docker-compose up -d`
+  - Create the following Kafka Topics: domain-crawler, domain-processor, and domain-service.
+- Run in order the microservices: crawler, processor, and service.
+- Make the request `{crawler-host}/domain/lookup/{name}`-> name being the desired domain name to search on API Domain Info.
+- Verify the crawler, processor, and service to see the results.
 
 ## Knowledge
 
